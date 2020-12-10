@@ -1,6 +1,6 @@
 const teams = (data) => {
-  let teamsHTML = "";
-  data.teams.forEach(team => {
+  let teamsHTML = '';
+  data.teams.forEach((team) => {
     teamsHTML += `
       <div class="col s12 m3" >
       <div class="card">
@@ -14,12 +14,12 @@ const teams = (data) => {
       </div>
       `;
   });
-  document.getElementById("teams").innerHTML = teamsHTML;
-}
+  document.getElementById('teams').innerHTML = teamsHTML;
+};
 
 const standings = (data) => {
-  let standingHTML = "";
-  data.standings[0].table.forEach(standing => {
+  let standingHTML = '';
+  data.standings[0].table.forEach((standing) => {
     standingHTML += `
       <tr>
     <td>
@@ -36,12 +36,12 @@ const standings = (data) => {
     </tr>
       `;
   });
-  document.getElementById("standing-content").innerHTML = standingHTML;
-}
+  document.getElementById('standing-content').innerHTML = standingHTML;
+};
 
 const matches = (data) => {
-  let matchesHTML = "";
-  data.matches.forEach(match => {
+  let matchesHTML = '';
+  data.matches.forEach((match) => {
     matchesHTML += `
       <div class="col s12 m6">
     <div class="card horizontal" style="height:180px">
@@ -79,13 +79,12 @@ const matches = (data) => {
 </div>
       `;
   });
-  document.getElementById("matches-day").innerHTML = matchesHTML;
-}
-
+  document.getElementById('matches-day').innerHTML = matchesHTML;
+};
 
 const saved = (favorite) => {
-  let favTeamHTML = "";
-  favorite.forEach(fav => {
+  let favTeamHTML = '';
+  favorite.forEach((fav) => {
     favTeamHTML += `
     <div class="col s12 m3" >
     <div class="card">
@@ -99,14 +98,14 @@ const saved = (favorite) => {
   });
 
   if (!favTeamHTML) {
-    document.getElementById("details").innerHTML = `<p class="grey-text center">Tidak ada team favorite</p>`;
+    document.getElementById('details').innerHTML = '<p class="grey-text center">Tidak ada team favorite</p>';
   } else {
-    document.getElementById("details").innerHTML = favTeamHTML;
+    document.getElementById('details').innerHTML = favTeamHTML;
   }
-}
+};
 
 const detailTeam = (data) => {
-  let detailsHTML = `
+  const detailsHTML = `
   <div class="card">
   <img class="materialboxed center-block" src="${data.crestUrl.replace(/^http:\/\//i, 'https://')}" alt="${data.name}">
   <h4 class="center">${data.name}</h4>
@@ -154,7 +153,9 @@ const detailTeam = (data) => {
   </div>
   </div>
   `;
-  document.getElementById("body-content").innerHTML = detailsHTML;
-}
+  document.getElementById('body-content').innerHTML = detailsHTML;
+};
 
-export { teams, standings, saved, detailTeam, matches }
+export {
+  teams, standings, saved, detailTeam, matches,
+};
