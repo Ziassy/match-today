@@ -1,0 +1,22 @@
+{
+    "name": "FootBall",
+    "short_name": "Football Today",
+    "description": "Football App",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FF1C1C",
+    "theme_color": "#FF1C1C",
+    "gcm_sender_id": "818906305398",
+    "icons": [
+        {
+            "src": "/assets/icons/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+.macon {
+  margin-top: 20px;
+}
+
+.card-image img {
+  height: 250px;
+}
+
+td img {
+  height: 50px;
+  width: 50px;
+}
+
+.head-detail img {
+  width: 200px;
+  height: 150px;
+  margin: 30px auto;
+}
+
+td.img-team img {
+  width: 90px;
+  height: 60px;
+}
+
+.red-light {
+  background-color: #FF1C1C;
+}
+
+.green-light {
+  background-color: #02da10;
+}
+
+.homeTeam img, .awayTeam img {
+  width: 60px;
+  height: 60px;
+  padding-top: 10px;
+}
+
+.homeTeam, .awayTeam {
+  width: 70px;
+  height: 70px;
+  border-radius: 90px;
+  position: relative;
+  background: linear-gradient(#FF9800, #F44336);
+  box-shadow: 0px 6px 15px 4px rgba(49, 41, 41, 0.2);
+  z-index: 0;
+  -webkit-box-shadow: 0px 6px 15px 4px rgba(230, 177, 180, 0.2);
+  -moz-box-shadow: 0px 6px 15px 4px rgba(230, 177, 180, 0.2);
+}
+
+.card-content li {
+  list-style: none;
+}
+
+.vs h6 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+p.float-right, .awayTeam {
+  float: right;
+}
