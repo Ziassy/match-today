@@ -26,4 +26,11 @@ Match Today adalah informasi Sepak Bola seperti, nama team, jadwal pertandingan,
 - [Pauziah](https://github.com/ziassy)
 
 ### Screenshot
+__Teams__
+![Teams](https://i.ibb.co/bBJ2F9y/teams.jpg)
+__Detail__
 ![Detail](https://i.ibb.co/4tthKC1/detail.jpg)
+__Standing__
+![Standing](https://i.ibb.co/26G65xP/standings.jpg)
+__Matches__
+![Matches](https://i.ibb.co/NNx7jBn/matches.jpg)
