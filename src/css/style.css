@@ -34,13 +34,15 @@ td.img-team img {
     background-color: #02da10;
 }
 
-.homeTeam img, .awayTeam img {
+.homeTeam img,
+.awayTeam img {
     width: 60px;
     height: 60px;
     padding-top: 10px;
 }
 
-.homeTeam, .awayTeam {
+.homeTeam,
+.awayTeam {
     width: 70px;
     height: 70px;
     border-radius: 90px;
@@ -61,10 +63,24 @@ td.img-team img {
     font-weight: bold;
 }
 
-p.float-right, .awayTeam {
+p.float-right,
+.awayTeam {
     float: right;
 }
 
 .tab a.active {
     background-color: #fff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.titleTeam {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.6;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }

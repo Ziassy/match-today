@@ -92,6 +92,7 @@ const getMatches = () => {
     .then(status)
     .then(json)
     .then((data) => {
+      console.log(data);
       matches(data);
       stopLoading(data);
     })

@@ -9,6 +9,7 @@ const teams = (data) => {
                   <img src="${team.crestUrl.replace(/^http:\/\//i, 'https://')}" alt="${team.name}"> </a>
               </div>
               <div class="card-content">
+              <p class="center titleTeam bold hide-on-small-only">${team.name}</p>
               </div>
           </div>
       </div>
@@ -106,12 +107,11 @@ const saved = (favorite) => {
 
 const detailTeam = (data) => {
   const detailsHTML = `
-  <div class="card">
   <img class="materialboxed center-block" src="${data.crestUrl.replace(/^http:\/\//i, 'https://')}" alt="${data.name}">
   <h4 class="center">${data.name}</h4>
   <div class="row">
     <div class="col s12 m12">
-      <div class="card horizontal">
+      <div class="horizontal">
         <table>
           <tbody>
             <tr>
@@ -150,7 +150,6 @@ const detailTeam = (data) => {
         </table>
       </div>
     </div>
-  </div>
   </div>
   `;
   document.getElementById('body-content').innerHTML = detailsHTML;
