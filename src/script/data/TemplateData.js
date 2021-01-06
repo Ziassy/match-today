@@ -93,6 +93,9 @@ const saved = (favorite) => {
                 <a href="../detail-teams.html?id=${fav.id}">
                 <img src="${fav.crestUrl.replace(/^http:\/\//i, 'https://')}" alt="${fav.name}"> </a>
             </div>
+            <div class="card-content">
+              <p class="center titleTeam bold hide-on-small-only">${fav.name}</p>
+            </div>
         </div>
     </div>
       `;
