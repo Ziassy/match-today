@@ -10,6 +10,7 @@ Match Today adalah informasi Sepak Bola seperti, nama team, jadwal pertandingan,
 - __Match__ Jadwal Pertandingan.
 - __favorite__ list team favorite kamu.
 
+---
 
 ### Built With
 - [Football.data.org](https://www.football-data.org/documentation/quickstart)
@@ -39,6 +40,9 @@ __Matches__
 __Review__
 ![Review](screenshoot/review.JPG)
 
+
+---
+
 ### Get in Touch 
 
 - Twitter: [@ziassy](https://twitter.com/ZIASSY1)
@@ -51,5 +55,6 @@ __Review__
 - OVO : 085887322352
 - Paypal :[ziassy](https://www.paypal.me/ziassy)
 
+---
 
 ###### tags: `Workbox` `PWA` `Webpack` `MPWA` `IndexedDB`
