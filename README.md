@@ -26,11 +26,30 @@ Match Today adalah informasi Sepak Bola seperti, nama team, jadwal pertandingan,
 - [Pauziah](https://github.com/ziassy)
 
 ### Screenshot
+![main](screenshoot/match-today.gif)
+
 __Teams__
-![Teams](https://i.ibb.co/bBJ2F9y/teams.jpg)
+![teams](screenshoot/teams.JPG)
 __Detail__
-![Detail](https://i.ibb.co/4tthKC1/detail.jpg)
+![Detail](screenshoot/detail.JPG)
 __Standing__
-![Standing](https://i.ibb.co/26G65xP/standings.jpg)
+![Standing](screenshoot/standings.JPG)
 __Matches__
-![Matches](https://i.ibb.co/NNx7jBn/matches.jpg)
+![Matches](screenshoot/matches.JPG)
+__Review__
+![Review](screenshoot/review.JPG)
+
+### Get in Touch 
+
+- Twitter: [@ziassy](https://twitter.com/ZIASSY1)
+- Instagram : [@fauziiyaa_](https://www.instagram.com/fauziiyaa_/)
+- Email : [pauziahid@gmail.com](pauziahid@gmail.com)
+- Email : [Ziassy](https://t.me/ziassy)
+
+### Buy me a Cup of Tea Or Donation🍺
+
+- OVO : 085887322352
+- Paypal :[ziassy](https://www.paypal.me/ziassy)
+
+
+###### tags: `Workbox` `PWA` `Webpack` `MPWA` `IndexedDB`
