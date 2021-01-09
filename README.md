@@ -43,8 +43,8 @@ __Review__
 
 - Twitter: [@ziassy](https://twitter.com/ZIASSY1)
 - Instagram : [@fauziiyaa_](https://www.instagram.com/fauziiyaa_/)
-- Email : [pauziahid@gmail.com](pauziahid@gmail.com)
-- Email : [Ziassy](https://t.me/ziassy)
+- Email : [pauziahid@gmail.com](mailto:pauziahid@gmail.com)
+- Telegram : [Ziassy](https://t.me/ziassy)
 
 ### Buy me a Cup of Tea Or Donation🍺
 
